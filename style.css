@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+}
+
+.button {
+  font-size: 2em;
+}
+
+.top {
+  /*border: 2px solid black;*/
+}
+
+.rowOne,
+.rowTwo,
+.rowThree {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  /*border: 2px solid black;*/
+}
+
+.white{
+  background-color: ;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+#boxOne,
+#boxTwo,
+#boxThree,
+#boxFour,
+#boxFive,
+#boxSix,
+#boxSeven,
+#boxEight,
+#boxNine {
+  width: 200px;
+  height: 200px;
+  border-color: grey;
+}
+
+#boxOne,
+#boxFour,
+#boxFive {
+  border-style: none solid solid none;
+}
+
+#boxTwo {
+  border-style: none solid solid none;
+}
+
+#boxThree,
+#boxSix {
+  border-style: none none solid none;
+}
+
+#boxSeven,
+#boxEight {
+  border-style: none solid none none;
+}
